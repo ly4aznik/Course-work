@@ -1,0 +1,135 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FF2B2B;
+    margin: 0 auto;
+}
+
+.body__background {
+    
+    width: 100%;
+    height: 100vh;
+    background: url("background.jpg") center repeat-y;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4B0082;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FF4D00;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+    
+  
+
+
+
+
+
+#authorized h2{
+    text-align: center;
+    
+}
+
+.mesage_error{
+    color: #cc0000;
+}
+
+.success_message{
+    color: green;
+}
+
+.block_for_messages{
+    text-align: center;
+}
+
+
+
+.schedule {
+    padding: 1%;
+    background: url("schedule.jpg") center repeat-y;
+    background-size: cover;
+    border-radius: 50px;
+    text-align: center;
+   
+}
+
+schedule_admin {
+    padding: 1%;
+    background: url("schedule.jpg") center repeat-y;
+    background-size: cover;
+    border-radius: 50px;
+    text-align: center;
+    
+    
+}
+
+
+.schedule_inside {
+    padding: 1%;
+    
+    text-align: center;
+    overflow-y: scroll;
+    height: 400px;
+   
+    
+}
+
+.autorization {
+    padding: 1%;
+    background: url("form_auth.jpg") center repeat-y;
+    background-size: cover;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+.td_salary {
+    text-align: left;
+}
+
+
+
+
+
+
+.content {
+    text-align: center;
+    padding: 1%;
+    background: url("schedule.jpg") center repeat-y;
+    background-size: cover;
+    border-radius: 50px;
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+.sidebar {
+    text-align: center;
+    padding: 1%;
+    background: url("schedule.jpg") center repeat-y;
+    background-size: cover;
+    border-radius: 50px;
+    width: 450px;
+    height: 600px;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
